@@ -1,0 +1,44 @@
+/* 將標題置中 */
+h1, h2 {
+    text-align: center;
+  }
+  
+  /* 將導覽連結置中 */
+  nav,a{
+    text-align: center;
+    color: rgb(255, 189, 89);
+  }
+  /* 連結懸停變色 */
+  a:hover{
+    color: rgb(255, 229, 81);
+  }
+  
+  /* 將區塊置中 */
+section{
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+    max-width: 600px; /* 設定區塊最大寬度，可根據需要調整 */
+    margin-bottom: 20px; /* 可根據需要調整區塊之間的間距 */
+  }
+  /* 圖片置中 */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; /* 可根據需要調整圖片的最大寬度 */
+    height: auto;
+  }
+  
+  /* 聯絡資訊置中 */
+  footer {
+    text-align: center;
+  }
+ 
+h1,h2,p{
+    color: rgb(252, 234, 213);
+}
+  
+ 
+ 
